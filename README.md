@@ -9,7 +9,7 @@ Appy the migrations using py manage.py migrate
 To be able to access admin view you need to create superuser, you can do this using:
 py manage.py createsuperuser and put your username, email and password. You will be registered as an admin
 Then start the server using http://localhost:8000/admin/ and put your username and password to login
-# In the admin panel you can see the database tables and populate the tables. You must populate the Movie table from the admin panel
+# In the admin panel you can see the database tables and populate the tables. **You must populate the Movie table from the admin panel**
 
 
 # movie-rental-store Frontend
