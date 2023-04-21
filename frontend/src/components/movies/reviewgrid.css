@@ -1,0 +1,39 @@
+.review-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .movie-label-container {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  form > * {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    flex-basis: 25%;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  textarea,
+  select {
+    flex-basis: 75%;
+    padding: 5px;
+    font-size: inherit;
+  }
+  
